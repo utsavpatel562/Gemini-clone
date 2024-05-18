@@ -2,6 +2,7 @@ import React, { useContext, useState } from "react";
 import "./Sidebar.css";
 import { assets } from "../../assets/assets";
 import { Context } from "../../context/Context";
+import DarkMode from "./DarkMode";
 
 const Sidebar = () => {
   const [extended, setExtended] = useState(false);
@@ -52,6 +53,14 @@ const Sidebar = () => {
         <div className="bottom-item recent-entry">
           <img src={assets.setting_icon} alt="" />
           {extended ? <p>Settings</p> : null}
+        </div>
+        <div className="bottom-item recent-entry">
+          <img
+            src="src/assets/darkmode_icon.png"
+            alt=""
+            className="mydarkmodeIcon"
+          />
+          {extended ? <DarkMode /> : null}
         </div>
       </div>
     </div>
