@@ -98,7 +98,7 @@ This project uses Firebase for authentication. Make sure to set up your Firebase
 
 1. Go to the Firebase console and create a new project.
 2. Enable authentication methods in the Firebase Authentication section.
-3. Obtain your Firebase configuration and add it to your `.env` file as shown in the [Running Locally](#running-locally) section.
+3. Obtain your Firebase configuration and add it to your `.env.local` file as shown in the [Running Locally](#running-locally) section.
 
 ## Contributing
 
@@ -123,4 +123,4 @@ If you have any questions or suggestions, feel free to contact me:
 
 ---
 
-Thank you for checking out Gemini! We hope you find this project helpful and inspiring. Happy coding!
+Thank you for checking out Gemini: Google AI Clone! I hope you find this project helpful and inspiring. Happy coding!
